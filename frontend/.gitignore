@@ -1,0 +1,33 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+# Other team members components - do not push from my side
+/frontend/src/components/Jobs.jsx
+/frontend/src/components/Navbar.jsx
+/frontend/src/components/Register.jsx
+
+# Other team members styles - do not push from my side
+/frontend/src/styles/global.css
+/frontend/src/styles/Jobs.css
+/frontend/src/styles/Navbar.css
